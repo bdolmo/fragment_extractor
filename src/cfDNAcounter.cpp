@@ -86,7 +86,7 @@ std::vector<std::tuple<std::string, int, int>> ParseRegionsFromBed(const std::st
 
 int main(int argc, char* argv[]) {
     if (argc < 5) {
-        std::cerr << "Usage: " << argv[0] << " <BAM file> <BED file> <output file> <WIG file>" << std::endl;
+        std::cerr << "Usage: " << argv[0] << " <input.bam> <input.windows.bed> <output.bed> output.wig>" << std::endl;
         return 1;
     }
 
